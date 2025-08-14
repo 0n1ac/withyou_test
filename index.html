@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나의 첫 페이지</title>
+    <title>앱 테스트</title>
     <style>
-        body {
-            font-family: sans-serif;
+        /* 페이지 배경 설정 */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f2f5;
+            background-color: #e9e9e9; /* 보기 편한 회색 배경 */
         }
-        h1 {
-            color: #333;
+
+        /* 아이폰 프레임 역할을 할 iframe 스타일 */
+        #iphone-frame {
+            width: 390px;  /* iPhone 13/14/15의 가로 해상도 */
+            height: 844px; /* iPhone 13/14/15의 세로 해상도 */
+            border: 10px solid black;
+            border-radius: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden; /* 프레임 밖으로 나가는 내용 숨기기 */
         }
     </style>
 </head>
 <body>
-    <h1>안녕하세요, 제 웹사이트에 오신 것을 환영합니다! 👋</h1>
+    <iframe id="iphone-frame" src="./app/index.html" frameborder="0"></iframe>
 </body>
 </html>
