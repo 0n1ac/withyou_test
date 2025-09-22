@@ -1,4 +1,4 @@
-# project_ongi_test
+# withyou_test
 
-- test link: https://0n1ac.github.io/project_ongi_test/
-- build command: `flutter build web --base-href /project_ongi_test/app/`
+- test link: https://0n1ac.github.io/withyou_test/
+- build command: `flutter build web --base-href /withyou_test/app/`
