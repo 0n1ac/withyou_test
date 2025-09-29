@@ -1,11 +1,11 @@
 {
-    "name": "project_ongi",
-    "short_name": "project_ongi",
+    "name": "withyou",
+    "short_name": "withyou",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Yonsei University 'RC 창의플랫폼' "ONGI" Team Project",
+    "description": "연세대학교 RC 창의플랫폼 출품작",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
